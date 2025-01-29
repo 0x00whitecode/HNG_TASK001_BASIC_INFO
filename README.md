@@ -70,6 +70,15 @@ app.add_middleware(
 )
 ```
 
+For more information about hiring Python developers, visit [HNG Python Developer Hiring](https://hng.tech/hire/python-developers).
+
+### Additional Links:
+- [Hire C# Developers](https://hng.tech/hire/csharp-developers)
+- [Hire Golang Developers](https://hng.tech/hire/golang-developers)
+- [Hire PHP Developers](https://hng.tech/hire/php-developers)
+- [Hire Java Developers](https://hng.tech/hire/java-developers)
+- [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
+
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
 
