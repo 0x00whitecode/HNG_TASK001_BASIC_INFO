@@ -19,7 +19,7 @@ async def root():
     iso_timestamp = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
 
     data = {
-        "email": "x10tion007@mail.com",
+        "email": "x10tion007@gmail.com",
         "current_datetime": iso_timestamp,
         "github_url": "https://github.com/0x00whitecode/HNG_TASK001_BASIC_INFO"
     }
