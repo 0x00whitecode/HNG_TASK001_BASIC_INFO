@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from datetime import datetime
+from datetime import datetime, timezone
 
 app = FastAPI()
 
@@ -14,7 +14,8 @@ app.add_middleware(
 @app.get("/", status_code=200)
 async def root():
     # Get current date and time
-    iso_timestamp = datetime.now().isoformat()
+    iso_timestamp = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
     #
     # {
     #   "email": "your-email@example.com",
